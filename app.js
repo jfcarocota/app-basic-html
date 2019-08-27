@@ -11,6 +11,7 @@ const playnote = event =>{
     audio.pause();
     audio.currentTime = 0;
     audio.play();
+    
 }
 
 buttons.forEach(
